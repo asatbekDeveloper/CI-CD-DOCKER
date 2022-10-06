@@ -11,11 +11,16 @@ public class DemoController {
 
     @GetMapping
     public String ciCd(){
-        return "CI CD DOCKER";
+        return "CI CD DOCKER v1";
     }
 
-    @GetMapping("/ci_cd")
+    @GetMapping("/ci_cd/v2")
     public String ciCdV2(){
         return "CI CD DOCKER V2";
+    }
+
+    @GetMapping("/ci_cd/v3")
+    public String ciCdV3(){
+        return "CI CD DOCKER V3";
     }
 }
