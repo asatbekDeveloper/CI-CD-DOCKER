@@ -49,6 +49,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>docker-ci-cd</finalName>
     </build>
 
 </project>
