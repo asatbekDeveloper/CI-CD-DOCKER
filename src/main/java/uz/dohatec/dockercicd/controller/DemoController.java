@@ -6,11 +6,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/ci_cd")
+@RequestMapping("/")
 public class DemoController {
 
     @GetMapping
     public String ciCd(){
         return "CI CD DOCKER";
+    }
+
+    @GetMapping("/ci_cd")
+    public String ciCdV2(){
+        return "CI CD DOCKER V2";
     }
 }
