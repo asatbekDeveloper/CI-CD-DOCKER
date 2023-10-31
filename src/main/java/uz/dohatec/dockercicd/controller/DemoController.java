@@ -28,4 +28,10 @@ public class DemoController {
     public String ciCdV4(){
         return "CI CD DOCKER V4";
     }
+
+
+    @GetMapping("/ci_cd/v5")
+    public String ciCdV5(){
+        return "CI CD DOCKER V5";
+    }
 }
